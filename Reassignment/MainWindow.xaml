@@ -1,0 +1,18 @@
+﻿<Window x:Class="Reassignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reassignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="408.897" Width="914.003" Foreground="White" FontSize="22" FontFamily="ISOCT3">
+    <Canvas>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="907" Source="Images/background.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Images/background.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="button" Content="Start" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="674" Canvas.Top="294" FontWeight="Bold"/>
+        <Label x:Name="label" Content="The Reassignment" HorizontalAlignment="Left" Height="50"  VerticalAlignment="Top" Width="306" Canvas.Left="90" Canvas.Top="252" Foreground="White" />
+    </Canvas>
+</Window>
