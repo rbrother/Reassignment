@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,16 +15,23 @@ using System.Windows.Shapes;
 
 namespace Reassignment {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for firstSteps.xaml
     /// </summary>
-    public partial class MainWindow : Window {
-        public MainWindow() {
+    public partial class firstSteps : UserControl {
+
+        List<string> helpTexts = new List<string>() {
+            "xxx",
+            "kkk",
+            "popopopop"
+        };
+
+        public firstSteps() {
             InitializeComponent();
         }
 
-        private void startClick(object sender, RoutedEventArgs e) {
-            Debug.WriteLine("ckicked");
-            Content = new firstSteps();
+        private void nextText(object sender, RoutedEventArgs e) {
+            descriptionText.Text = "hallittua vcvcvcvcvcvcv fdifjdifjdifj fdijdifj " +
+                "jijijijijij ijijij jiijij";
         }
     }
 }
