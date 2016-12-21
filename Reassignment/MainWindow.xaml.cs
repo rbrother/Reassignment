@@ -24,7 +24,6 @@ namespace Reassignment {
         }
 
         private void startClick(object sender, RoutedEventArgs e) {
-            Debug.WriteLine("ckicked");
             Content = new firstSteps();
         }
     }

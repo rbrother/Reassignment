@@ -6,16 +6,16 @@
              xmlns:local="clr-namespace:Reassignment"
              mc:Ignorable="d" >
     <Canvas Height="378" Width="907">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="907" Source="Images/background.png">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="907" Source="Images/mainFrame.png">
             <Image.OpacityMask>
-                <ImageBrush ImageSource="Images/background.png"/>
+                <ImageBrush ImageSource="Images/mainFrame.png"/>
             </Image.OpacityMask>
         </Image>
-        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="674" Canvas.Top="294" FontWeight="Bold" Click="nextText"/>
-        <TextBlock x:Name="descriptionText" Height="54" Canvas.Left="100" TextWrapping="Wrap" Canvas.Top="247" Width="335" Foreground="White">
-            dsdsdksldksoldksldk dsfjsdifjdsi sdfjsdiofj msdfjsdijf
-            sodfjkosdkf sdfojos sdiofjois sdfjsdj
-
+        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="725" Canvas.Top="280" FontWeight="Bold" Click="nextText"/>
+        <TextBlock x:Name="descriptionText" Height="200" Canvas.Left="60" TextWrapping="Wrap" Canvas.Top="60" Width="800" Foreground="White">
+            Your head hurts as you snap out of it in a coffeeshop apparently called "Sokerilla". It's morning and the sun's beams make you hold your left hand in front of your eyes.
+            ...
         </TextBlock>
     </Canvas>
 </UserControl>
+

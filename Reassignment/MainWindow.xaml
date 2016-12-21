@@ -6,14 +6,13 @@
         xmlns:local="clr-namespace:Reassignment"
         mc:Ignorable="d"
         SizeToContent="WidthAndHeight"
-        Title="MainWindow" Foreground="White" FontSize="22" FontFamily="ISOCT3">
+        Title="MainWindow" Foreground="White" FontSize="22" FontFamily="ISOCT3" d:DesignWidth="914" d:DesignHeight="403">
     <Canvas Height="378" Width="907">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="378" VerticalAlignment="Top" Width="907" Source="Images/background.png">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="378" VerticalAlignment="Top" Width="907" Source="Images/coffeeshopBeginning.png">
             <Image.OpacityMask>
-                <ImageBrush ImageSource="Images/background.png"/>
+                <ImageBrush ImageSource="Images/coffeeshopBeginning.png"/>
             </Image.OpacityMask>
         </Image>
-        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="674" Canvas.Top="294" FontWeight="Bold" Click="startClick"/>
-        <Label x:Name="label" Content="The Reassignment" HorizontalAlignment="Left" Height="50"  VerticalAlignment="Top" Width="306" Canvas.Left="90" Canvas.Top="252" Foreground="White" />
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="740" Canvas.Top="158" FontWeight="Bold" Click="startClick"/>
     </Canvas>
 </Window>

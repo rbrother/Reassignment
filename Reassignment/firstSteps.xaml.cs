@@ -20,6 +20,7 @@ namespace Reassignment {
     public partial class firstSteps : UserControl {
 
         List<string> helpTexts = new List<string>() {
+            "The first text",
             "xxx",
             "kkk",
             "popopopop"
@@ -32,6 +33,8 @@ namespace Reassignment {
         private void nextText(object sender, RoutedEventArgs e) {
             descriptionText.Text = "hallittua vcvcvcvcvcvcv fdifjdifjdifj fdijdifj " +
                 "jijijijijij ijijij jiijij";
+
+            descriptionText.Text = helpTexts[1];
         }
     }
 }
