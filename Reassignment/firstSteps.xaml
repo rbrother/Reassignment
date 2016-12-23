@@ -11,11 +11,11 @@
                 <ImageBrush ImageSource="Images/mainFrame.png"/>
             </Image.OpacityMask>
         </Image>
-        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="725" Canvas.Top="280" FontWeight="Bold" Click="nextText"/>
-        <TextBlock x:Name="descriptionText" Height="200" Canvas.Left="60" TextWrapping="Wrap" Canvas.Top="60" Width="800" Foreground="White">
-            Your head hurts as you snap out of it in a coffeeshop apparently called "Sokerilla". It's morning and the sun's beams make you hold your left hand in front of your eyes.
-            ...
+        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="116" Canvas.Left="725" Canvas.Top="280" FontWeight="Bold" Click="nextPhase"/>
+        <TextBlock x:Name="descriptionText" Height="200" Canvas.Left="60" TextWrapping="Wrap" Canvas.Top="60" Width="800" Foreground="White" FontFamily="Courier New">
+            Everything's a blur... Then you snap out of it. You've been in your own world for some time...
         </TextBlock>
+        <TextBox x:Name="boxForText" Height="30" Canvas.Left="45" TextWrapping="Wrap" Text="Write the command to be executed here" Canvas.Top="500" Width="636" FontFamily="Courier New"/>
     </Canvas>
 </UserControl>
 
